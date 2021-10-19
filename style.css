@@ -1,0 +1,136 @@
+body{
+	background-color: white;
+	
+}
+#container{
+	width: 1300px;
+	margin: 0 auto;
+	background-color: white;
+	font-family: 'Andada Pro', serif;
+}
+header{
+	background-color: white;
+	padding: 0px;
+}
+header h2{
+	margin: 0px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align:center;
+	font-size: 500%;
+	font-family: 'Dancing Script', cursive;
+}
+h1 {
+	text-align:center; 
+}
+#Italy h1 {
+	padding-top:70px;
+}
+#Italy h2 {
+	text-align:center;
+}
+#Italy h3{
+	text-align:center;
+	font-size: 30px
+}
+#Contact h1 {
+	padding-top:80px;
+}
+#Aboutme h1{
+	padding-top: 70px;
+}
+p { 
+text-align: center; 
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+nav li {
+  float: left;
+ padding-left: 150px;
+  text-align: center;
+  
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: white;
+ 
+}
+footer{
+	background-color: grey;
+	padding: 50px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 200%;
+}
+footer p{
+	margin: 0;
+}
+#Italy1 {
+	width: 1300px;
+	padding-top: 5px;
+}
+#Italy2 {
+	 width: 500px;
+	 
+}
+#Aboutme #About {
+	width: 500px;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+#Aboutme #Aboutme {
+	width:700px;
+	padding-left: 300px;
+}
+#Italy #Italy3 {
+	width: 500px;
+	padding-left: 60px;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+#Contact #Italy4 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+p{
+	font-size: 150%;
+}
+.two-column{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 0px;
+	background-color: white;
+}
+	
+}
+.two-column div{
+	background-color: white;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.three-column{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	padding: 40px;
+	background-color: white;
+}
+.three-column div{
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
